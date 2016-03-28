@@ -14,17 +14,10 @@ body {
 }
 
 .container {
-  width:100%;
+  width:90%;
 }
 
 
-
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-     
-      margin: auto;
-      padding-top: 100px
-}
 .carousel-control {
   color:#000000;
 }
@@ -37,15 +30,40 @@ body {
 .carousel-control .icon-prev, 
 .carousel-control .icon-next {
     font-size: 100px;
-    color: #af0346;
+    color: grey;
 }
-.carousel {
-  height: 500px;
-  width: 100%;
 
-
+.carousel-indicators li {
+border-radius: 0;
+ background: grey;
 
 }
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: left !important;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+
 
 
 
@@ -82,22 +100,24 @@ ul.nav a:hover { color: grey !important;
   margin-right:20px;
 }
 
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
 
- }
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 2.1em;
+.table-custom-hover > tbody > tr:hover a, 
+.table-custom-hover > tbody > tr:hover{
+background-color: #f5f11a;
 
 }
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
+
+.btn {
+    border-radius: 0px;
+    color:white;
+    background-color: grey;
+    border-color: grey;
+
+
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: black;
+}
 
 
