@@ -1,0 +1,98 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+$('.carousel').carousel({
+  interval: false
+}) 
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+     
+      margin: auto;
+      padding-top: 100px
+}
+.carousel-control {
+  color:#000000;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+
+
+}
+
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 100px;
+    color: #af0346;
+}
+.carousel {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 60px;
+ 
+
+
+}
+
+.carousel-indicators li{
+ background: white;
+}
+
+}
+
+
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+
+.navbar {
+
+    
+    font-size: 20px;
+    color: grey;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+}
+ul.nav a:hover { color: white !important;
+
+}
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:20px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+
+ }
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 2.1em;
+
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+
+
