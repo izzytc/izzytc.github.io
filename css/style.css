@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: grey;
   font-size: 17px;
+
 }
 
 .h1 {
@@ -31,6 +32,7 @@ body {
 .carousel-control .icon-next {
     font-size: 100px;
     color: grey;
+
 }
 
 .carousel-indicators li {
@@ -61,7 +63,41 @@ h3 {
 
 h3 {
   color: black;
+
 }
+
+.carousel-indicators li {
+border-radius: 0;
+ background: grey;
+
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: left !important;
+
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+
 
 
 
@@ -72,6 +108,7 @@ img{
 
 height: auto;
 height: 50%;
+
 
 
 }
@@ -107,6 +144,22 @@ ul.nav a:hover { color: grey !important;
 .table-custom-hover > tbody > tr:hover{
 background-color: #f5f11a;
 
+
+}
+
+.btn {
+    border-radius: 0px;
+    color:white;
+    background-color: grey;
+    border-color: grey;
+
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: black;
+
+
 }
 
 .btn {
@@ -122,5 +175,9 @@ background-color: #f5f11a;
     background: black;
 }
 
-
-
+#footer {
+    background-color:#a19f9e;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
